@@ -1,0 +1,1 @@
+{"version":3,"file":"UsercentricsConsentUserResponse.js","sourceRoot":"","sources":["../../src/models/UsercentricsConsentUserResponse.tsx"],"names":[],"mappings":"AAEA,MAAM,OAAO,+BAA+B;IAMxC,YAAY,YAAoB,EAAE,aAA0C,EAAE,QAAsC;QAChH,IAAI,CAAC,YAAY,GAAG,YAAY,CAAC;QACjC,IAAI,CAAC,eAAe,GAAG,aAAa,CAAA;QACpC,IAAI,CAAC,QAAQ,GAAG,QAAQ,CAAA;IAC5B,CAAC;CACJ"}

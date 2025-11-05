@@ -1,0 +1,1 @@
+{"version":3,"file":"GeolocationRuleset.js","sourceRoot":"","sources":["../../src/models/GeolocationRuleset.tsx"],"names":[],"mappings":"AAAA,MAAM,OAAO,kBAAkB;IAK3B,YAAY,gBAAwB,EAAE,wBAAiC;QACnE,IAAI,CAAC,gBAAgB,GAAG,gBAAgB,CAAA;QACxC,IAAI,CAAC,wBAAwB,GAAG,wBAAwB,CAAA;IAC5D,CAAC;CACJ"}

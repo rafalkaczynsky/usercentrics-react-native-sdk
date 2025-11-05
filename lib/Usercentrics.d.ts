@@ -1,0 +1,28 @@
+import { AdditionalConsentModeData, BannerSettings, CCPAData, TCFData, TCFDecisionUILayer, TCFUserDecisions, UsercentricsAnalyticsEventType, UsercentricsCMPData, UsercentricsConsentType, UsercentricsConsentUserResponse, UsercentricsOptions, UsercentricsReadyStatus, UsercentricsServiceConsent, UserDecision } from './models';
+export declare const Usercentrics: {
+    configure: (options: UsercentricsOptions) => void;
+    status: () => Promise<UsercentricsReadyStatus>;
+    showFirstLayer: (options?: BannerSettings) => Promise<UsercentricsConsentUserResponse>;
+    showSecondLayer: (options?: BannerSettings) => Promise<UsercentricsConsentUserResponse>;
+    restoreUserSession: (controllerId: string) => Promise<UsercentricsReadyStatus>;
+    getControllerId: () => Promise<string>;
+    getABTestingVariant: () => Promise<string | null>;
+    getConsents: () => Promise<Array<UsercentricsServiceConsent>>;
+    getCMPData: () => Promise<UsercentricsCMPData>;
+    getUserSessionData: () => Promise<string>;
+    getCCPAData: () => Promise<CCPAData>;
+    getTCFData: () => Promise<TCFData>;
+    getAdditionalConsentModeData: () => Promise<AdditionalConsentModeData>;
+    changeLanguage: (language: string) => Promise<void>;
+    acceptAll: (consentType: UsercentricsConsentType) => Promise<Array<UsercentricsServiceConsent>>;
+    acceptAllForTCF: (fromLayer: TCFDecisionUILayer, consentType: UsercentricsConsentType) => Promise<Array<UsercentricsServiceConsent>>;
+    denyAll: (consentType: UsercentricsConsentType) => Promise<Array<UsercentricsServiceConsent>>;
+    denyAllForTCF: (fromLayer: TCFDecisionUILayer, consentType: UsercentricsConsentType) => Promise<Array<UsercentricsServiceConsent>>;
+    saveDecisions: (decisions: UserDecision[], consentType: UsercentricsConsentType) => Promise<Array<UsercentricsServiceConsent>>;
+    saveDecisionsForTCF: (tcfDecisions: TCFUserDecisions, fromLayer: TCFDecisionUILayer, decisions: UserDecision[], consentType: UsercentricsConsentType) => Promise<Array<UsercentricsServiceConsent>>;
+    saveOptOutForCCPA: (isOptedOut: boolean, consentType: UsercentricsConsentType) => Promise<Array<UsercentricsServiceConsent>>;
+    setCMPId: (id: number) => void;
+    setABTestingVariant: (variant: string) => void;
+    track: (event: UsercentricsAnalyticsEventType) => Promise<void>;
+    clearUserSession: () => Promise<UsercentricsReadyStatus>;
+};

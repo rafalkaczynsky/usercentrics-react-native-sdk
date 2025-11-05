@@ -1,0 +1,1 @@
+{"version":3,"file":"SecondLayerSettings.js","sourceRoot":"","sources":["../../src/models/SecondLayerSettings.tsx"],"names":[],"mappings":"AAEA,MAAM,OAAO,wBAAwB;IAKjC,YAAY,YAA2B,EAAE,eAAyB;QAC9D,IAAI,CAAC,YAAY,GAAG,YAAY,CAAC;QACjC,IAAI,CAAC,eAAe,GAAG,eAAe,CAAC;IAC3C,CAAC;CACJ"}

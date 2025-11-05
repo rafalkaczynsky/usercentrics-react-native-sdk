@@ -1,0 +1,1 @@
+{"version":3,"file":"UsercentricsCategory.js","sourceRoot":"","sources":["../../src/models/UsercentricsCategory.tsx"],"names":[],"mappings":"AAAA,MAAM,OAAO,oBAAoB;IAc7B,YACI,YAAoB,EACpB,KAAa,EACb,WAAmB,EACnB,WAAoB;QAEpB,IAAI,CAAC,YAAY,GAAG,YAAY,CAAA;QAChC,IAAI,CAAC,KAAK,GAAG,KAAK,CAAA;QAClB,IAAI,CAAC,WAAW,GAAG,WAAW,CAAA;QAC9B,IAAI,CAAC,WAAW,GAAG,WAAW,CAAA;IAClC,CAAC;CACJ"}

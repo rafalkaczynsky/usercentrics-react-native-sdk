@@ -1,0 +1,1 @@
+{"version":3,"file":"UserDecision.js","sourceRoot":"","sources":["../../src/models/UserDecision.tsx"],"names":[],"mappings":"AAAA,MAAM,OAAO,YAAY;IAKrB,YAAY,SAAiB,EAAE,OAAgB;QAC3C,IAAI,CAAC,SAAS,GAAG,SAAS,CAAA;QAC1B,IAAI,CAAC,OAAO,GAAG,OAAO,CAAA;IAC1B,CAAC;CACJ"}
